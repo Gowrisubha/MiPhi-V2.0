@@ -104,7 +104,7 @@
     <header id="header" class="site-header bg-white position-fixed z-2 w-100 border-bottom mb-5 main-header" data-text-color="white">
       <nav id="header-nav" class="navbar navbar-expand-lg py-2 " >
         <div class="container-lg" >
-          <a class="navbar-brand " href="index.html">
+          <a class="navbar-brand " href="../index.html">
             <img src="../images/miphi_main_logo.png" class="logo" height="80" width="170">
           </a>
           <button class="navbar-toggler d-flex d-lg-none order-3 p-2 border-0 shadow-none bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -123,7 +123,7 @@
                   <a class="nav-link text-dark"  href="aidaptiv.html">aiDAPTIV+</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link text-dark active" href="enterprise.html" id="dropdownPages" onclick="redirectOnBigScreensEnterprise(event);" aria-haspopup="true" aria-expanded="false">Enterprise</a>
+                  <a class="nav-link text-dark active" href="#" id="dropdownPages" onclick="redirectOnBigScreensEnterprise(event);" aria-haspopup="true" aria-expanded="false">Enterprise</a>
                   <div class="dropdown-menu" aria-labelledby="dropdownPages">
                     <a class="dropdown-item fw-bold" href="enterprise.html" style="color: black; font-size: small;">Overview<span class="badge bg-primary fw-bold"></span></a>
                     <a class="dropdown-item" href="x-series.html" style="font-size: small;">Performance X-Series<span class="badge bg-primary"></span></a>
@@ -222,7 +222,7 @@
                   <a class="nav-link text-dark" data-target="features" href="#features"></a>
                 </li> -->
                 <li class="nav-item dropdown">
-                  <a class="nav-link text-dark active " href="#" id="dropdownPages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support</a>
+                  <a class="nav-link text-dark active "  id="dropdownPages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support</a>
                   <div class="dropdown-menu" aria-labelledby="dropdownPages">
                     <a class="dropdown-item" href="contact.html" style="font-size: small;">Contact<span class="badge bg-primary"></span></a>
                     <a class="dropdown-item" href="faqs.html" style="font-size: small;">FAQs<span class="badge bg-primary"></span></a>
@@ -429,16 +429,16 @@
 
 <script>
   const arr = [
-      ["PS8232", "eMMC 5.1", "32GB ~ 64GB", "3D TLC", "310/180 MB/s", "153 Balls (11.5x13x1.0mm)", "- 25°C ~ 85°C (Tcase)", "N/A", "document.pdf", "images/PS8232-eMMC-opt.png"],
-      ["PS8231", "eMMC 5.1", "64GB ~ 512GB", "3D TLC", "320/280 MB/s", "153 Balls (11.5x13x1.0mm)", "- 25°C ~ 85°C (Tcase)", "N/A", "document.pdf", "images/PS8231-eMMC-opt.png"],
-      ["PS8229", "eMMC 5.1", "32GB ~ 256GB", "3D TLC", "315/240 MB/s", "153 Balls (11.5x13x1.0mm)", "- 25°C ~ 85°C (Tcase)", "N/A", "document.pdf", "images/PS8229-eMMC-opt.png"],
-      ["PS8228", "eMMC 5.1", "8GB", "2D MLC", "280/105 MB/s", "153 Balls (11.5x13x1.0mm)", "- 25°C ~ 85°C (Tcase)", "N/A", "document.pdf", "images/PS8228-eMMC-opt.png"],
-      ["PS8225", "eMMC 5.1", "4GB ~ 16GB", "MLC", "225/140 MB/s", "100 Balls (14x18x1.4mm)", "- 40°C ~ 85°C", "AEC Grade 3", "document.pdf", "images/MEM5-eMMC-ISO-opt.png"],
-      ["PS8225", "eMMC 5.1", "4GB ~ 16GB", "MLC", "225/140 MB/s", "100 Balls (14x18x1.4mm)", "- 40°C ~ 105°C", "AEC Grade 2", "document.pdf", "images/MEM5-eMMC-ISO-opt.png"],
-      ["PS8225", "eMMC 5.1", "4GB ~ 16GB", "MLC", "225/140 MB/s", "153 Balls (11.5x13x1.0mm)", "- 40°C ~ 85°C", "AEC Grade 3", "document.pdf", "images/MEM5-eMMC-ISO-opt.png"],
-      ["PS8231", "eMMC 5.1", "32GB ~ 256GB", "3D TLC", "320/215 MB/s", "153 Balls (11.5x13x1.0mm)", "- 40°C ~ 85°C", "AEC Grade 3", "document.pdf", "images/PS8231-eMMC-opt.png"],
-      ["PS8231", "eMMC 5.1", "32GB ~ 256GB", "3D TLC", "320/215 MB/s", "153 Balls (11.5x13x1.0mm)", "- 40°C ~ 105°C", "AEC Grade 2", "document.pdf", "images/PS8231-eMMC-opt.png"],
-      ["PS8229", "eMMC 5.1", "16GB ~ 32GB", "3D TLC", "280/190 MB/s", "153 Balls (11.5x13x1.0mm)", "- 40°C ~ 85°C", "AEC Grade 3", "document.pdf", "images/PS8229-eMMC-opt.png"]
+      ["PS8232", "eMMC 5.1", "32GB ~ 64GB", "3D TLC", "310/180 MB/s", "153 Balls (11.5x13x1.0mm)", "- 25°C ~ 85°C (Tcase)", "N/A", "document.pdf", "../images/PS8232-eMMC-opt.png"],
+      ["PS8231", "eMMC 5.1", "64GB ~ 512GB", "3D TLC", "320/280 MB/s", "153 Balls (11.5x13x1.0mm)", "- 25°C ~ 85°C (Tcase)", "N/A", "document.pdf", "../images/PS8231-eMMC-opt.png"],
+      ["PS8229", "eMMC 5.1", "32GB ~ 256GB", "3D TLC", "315/240 MB/s", "153 Balls (11.5x13x1.0mm)", "- 25°C ~ 85°C (Tcase)", "N/A", "document.pdf", "../images/PS8229-eMMC-opt.png"],
+      ["PS8228", "eMMC 5.1", "8GB", "2D MLC", "280/105 MB/s", "153 Balls (11.5x13x1.0mm)", "- 25°C ~ 85°C (Tcase)", "N/A", "document.pdf", "../images/PS8228-eMMC-opt.png"],
+      ["PS8225", "eMMC 5.1", "4GB ~ 16GB", "MLC", "225/140 MB/s", "100 Balls (14x18x1.4mm)", "- 40°C ~ 85°C", "AEC Grade 3", "document.pdf", "../images/MEM5-eMMC-ISO-opt.png"],
+      ["PS8225", "eMMC 5.1", "4GB ~ 16GB", "MLC", "225/140 MB/s", "100 Balls (14x18x1.4mm)", "- 40°C ~ 105°C", "AEC Grade 2", "document.pdf", "../images/MEM5-eMMC-ISO-opt.png"],
+      ["PS8225", "eMMC 5.1", "4GB ~ 16GB", "MLC", "225/140 MB/s", "153 Balls (11.5x13x1.0mm)", "- 40°C ~ 85°C", "AEC Grade 3", "document.pdf", "../images/MEM5-eMMC-ISO-opt.png"],
+      ["PS8231", "eMMC 5.1", "32GB ~ 256GB", "3D TLC", "320/215 MB/s", "153 Balls (11.5x13x1.0mm)", "- 40°C ~ 85°C", "AEC Grade 3", "document.pdf", "../images/PS8231-eMMC-opt.png"],
+      ["PS8231", "eMMC 5.1", "32GB ~ 256GB", "3D TLC", "320/215 MB/s", "153 Balls (11.5x13x1.0mm)", "- 40°C ~ 105°C", "AEC Grade 2", "document.pdf", "../images/PS8231-eMMC-opt.png"],
+      ["PS8229", "eMMC 5.1", "16GB ~ 32GB", "3D TLC", "280/190 MB/s", "153 Balls (11.5x13x1.0mm)", "- 40°C ~ 85°C", "AEC Grade 3", "document.pdf", "../images/PS8229-eMMC-opt.png"]
   ];
 
   const tableBody = document.getElementById('tableBody');
@@ -502,7 +502,7 @@
           <div class="header">
             <div class="logo">
              
-              <span><a href="index.html"><img class="logo24" src="../images/Logo (black)1.png" alt="MiPhi"></a></span>
+              <span><a href="../index.html"><img class="logo24" src="../images/Logo (black)1.png" alt="MiPhi"></a></span>
             </div>
    
             <div class="icons">
@@ -543,7 +543,7 @@
             </ul>
             <ul class="col">
               <li class="title">Company</li>
-              <li><a href="page/about.html">About</a></li>
+              <li><a href="about.html">About</a></li>
               <li><a href="application.html">Applications</a></li>
               <li><a href="contact.html">Contact</a></li>
               <li><a href="factory.html">Manufacturing</a></li>
@@ -566,7 +566,7 @@
         <div class="bottom">
           <div class="text">
             <span class="copyright"
-              >Copyright &#169;2024 <a href="index.html">MiPhi Semicon India Pvt. Ltd.</a>All rights reserved</span
+              >Copyright &#169;2024 <a href="../index.html">MiPhi Semicon India Pvt. Ltd.</a>All rights reserved</span
             >
             <span class="terms">
               <a href="terms.html">Terms & Conditions</a>

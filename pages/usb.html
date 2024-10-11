@@ -104,7 +104,7 @@
     <header id="header" class="site-header bg-white position-fixed z-2 w-100 border-bottom mb-5 main-header" data-text-color="white">
       <nav id="header-nav" class="navbar navbar-expand-lg py-2 " >
         <div class="container-lg" >
-          <a class="navbar-brand " href="index.html">
+          <a class="navbar-brand " href="../index.html">
             <img src="../images/miphi_main_logo.png" class="logo" height="80" width="170">
           </a>
           <button class="navbar-toggler d-flex d-lg-none order-3 p-2 border-0 shadow-none bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -123,7 +123,7 @@
                   <a class="nav-link text-dark"  href="aidaptiv.html">aiDAPTIV+</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link text-dark active" href="enterprise.html" id="dropdownPages" onclick="redirectOnBigScreensEnterprise(event);" aria-haspopup="true" aria-expanded="false">Enterprise</a>
+                  <a class="nav-link text-dark active" href="#" id="dropdownPages" onclick="redirectOnBigScreensEnterprise(event);" aria-haspopup="true" aria-expanded="false">Enterprise</a>
                   <div class="dropdown-menu" aria-labelledby="dropdownPages">
                     <a class="dropdown-item fw-bold" href="enterprise.html" style="color: black; font-size: small;">Overview<span class="badge bg-primary fw-bold"></span></a>
                     <a class="dropdown-item" href="x-series.html" style="font-size: small;">Performance X-Series<span class="badge bg-primary"></span></a>
@@ -222,7 +222,7 @@
                   <a class="nav-link text-dark" data-target="features" href="#features"></a>
                 </li> -->
                 <li class="nav-item dropdown">
-                  <a class="nav-link text-dark active " href="#" id="dropdownPages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support</a>
+                  <a class="nav-link text-dark active "  id="dropdownPages" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support</a>
                   <div class="dropdown-menu" aria-labelledby="dropdownPages">
                     <a class="dropdown-item" href="contact.html" style="font-size: small;">Contact<span class="badge bg-primary"></span></a>
                     <a class="dropdown-item" href="faqs.html" style="font-size: small;">FAQs<span class="badge bg-primary"></span></a>
@@ -411,18 +411,18 @@
    </style>
  <script>
   const arr = [
-      ["PS2251-21", "USB 4.0 Gen 3x2", "Type C", "UpTo 4TB", "4000/3600 MB/s", "download.pdf", "images/USB4.0.png"],
-      ["PS5021-E21T", "USB 3.2 Gen 2x2", "Type C", "120GB ~ 2TB", "2000/2000 MB/s", "download.pdf", "images/USB.png"],
-      ["PS2251-18", "USB 3.2 Gen 2x2", "Type C", "500GB ~ 4TB", "1600/1500 MB/s", "download.pdf", "images/USB.png"],
-      ["PS5013-E13T", "USB 3.2 Gen 2x2", "Type C", "120GB ~ 2TB", "2000/1900 MB/s", "download.pdf", "images/USB.png"],
-      ["PS2251-17", "USB 3.2 Gen 2x1", "Type A, Type C, Type A + Type C", "250GB ~ 2TB", "1000/800 MB/s", "download.pdf", "images/USB.png"],
-      ["PS2251-17", "USB 3.2 Gen 2", "Type C", "250GB ~ 2TB", "1100/1000 MB/s", "download.pdf", "images/USB.png"],
-      ["PS3111-S11T", "USB 3.2 Gen 2", "Type C", "120GB ~ 1TB", "520/500 MB/s", "download.pdf", "images/USB.png"],
-      ["PS3111-S11T", "USB 3.2 Gen 1", "Micro-B", "120GB ~ 1TB", "400/390 MB/s", "download.pdf", "images/USB.png"],
-      ["PS2251-13", "USB 3.2 Gen 1", "Type A", "16GB ~ 256GB", "320/260 MB/s", "download.pdf", "images/USB.png"],
-      ["PS2251-19", "USB 3.2 Gen 1", "Type A, Type C, Type A + Micro-B, Type A + Type C", "32GB ~ 512GB", "220/100 MB/s", "download.pdf", "images/USB.png"],
-      ["PS2251-11", "USB 3.1 Gen 1", "Type A", "32GB ~ 512GB", "200/100 MB/s", "download.pdf", "images/USB.png"],
-      ["PS2251-70", "USB 2.0", "Type A, Type A + Micro-B, Type A + Type C", "4GB ~ 256GB", "30/15 MB/s", "download.pdf", "images/USB.png"]
+      ["PS2251-21", "USB 4.0 Gen 3x2", "Type C", "UpTo 4TB", "4000/3600 MB/s", "download.pdf", "../images/USB4.0.png"],
+      ["PS5021-E21T", "USB 3.2 Gen 2x2", "Type C", "120GB ~ 2TB", "2000/2000 MB/s", "download.pdf", "../images/USB.png"],
+      ["PS2251-18", "USB 3.2 Gen 2x2", "Type C", "500GB ~ 4TB", "1600/1500 MB/s", "download.pdf", "../images/USB.png"],
+      ["PS5013-E13T", "USB 3.2 Gen 2x2", "Type C", "120GB ~ 2TB", "2000/1900 MB/s", "download.pdf", "../images/USB.png"],
+      ["PS2251-17", "USB 3.2 Gen 2x1", "Type A, Type C, Type A + Type C", "250GB ~ 2TB", "1000/800 MB/s", "download.pdf", "../images/USB.png"],
+      ["PS2251-17", "USB 3.2 Gen 2", "Type C", "250GB ~ 2TB", "1100/1000 MB/s", "download.pdf", "../images/USB.png"],
+      ["PS3111-S11T", "USB 3.2 Gen 2", "Type C", "120GB ~ 1TB", "520/500 MB/s", "download.pdf", "../images/USB.png"],
+      ["PS3111-S11T", "USB 3.2 Gen 1", "Micro-B", "120GB ~ 1TB", "400/390 MB/s", "download.pdf", "../images/USB.png"],
+      ["PS2251-13", "USB 3.2 Gen 1", "Type A", "16GB ~ 256GB", "320/260 MB/s", "download.pdf", "../images/USB.png"],
+      ["PS2251-19", "USB 3.2 Gen 1", "Type A, Type C, Type A + Micro-B, Type A + Type C", "32GB ~ 512GB", "220/100 MB/s", "download.pdf", "../images/USB.png"],
+      ["PS2251-11", "USB 3.1 Gen 1", "Type A", "32GB ~ 512GB", "200/100 MB/s", "download.pdf", "../images/USB.png"],
+      ["PS2251-70", "USB 2.0", "Type A, Type A + Micro-B, Type A + Type C", "4GB ~ 256GB", "30/15 MB/s", "download.pdf", "../images/USB.png"]
   ];
 
   const tableBody = document.getElementById('tableBody');
@@ -480,7 +480,7 @@
     <div class="header">
       <div class="logo">
        
-        <span><a href="index.html"><img class="logo24" src="../images/Logo (black)1.png" alt="MiPhi"></a></span>
+        <span><a href="../index.html"><img class="logo24" src="../images/Logo (black)1.png" alt="MiPhi"></a></span>
       </div>
 
       <div class="icons">
@@ -521,7 +521,7 @@
       </ul>
       <ul class="col">
         <li class="title">Company</li>
-        <li><a href="page/about.html">About</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="application.html">Applications</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="factory.html">Manufacturing</a></li>
@@ -544,7 +544,7 @@
   <div class="bottom">
     <div class="text">
       <span class="copyright"
-        >Copyright &#169;2024 <a href="index.html">MiPhi Semicon India Pvt. Ltd.</a>All rights reserved</span
+        >Copyright &#169;2024 <a href="../index.html">MiPhi Semicon India Pvt. Ltd.</a>All rights reserved</span
       >
       <span class="terms">
         <a href="terms.html">Terms & Conditions</a>

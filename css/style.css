@@ -3915,7 +3915,7 @@ has context menu
 
 
 .app-div{
-  background-image: url(images/miphi_app.webp);
+  background-image: url(../images/miphi_app.webp);
 }
 
 
@@ -4797,28 +4797,28 @@ has context menu
   counter-increment: item-counter;
 }
 .itemg:nth-of-type(1n){
-  background-image: url('images/testing-transformed.png');
+  background-image: url('../images/testing-transformed.png');
 }
 .itemg:nth-of-type(2n) {
-  background-image: url('images/open_cell-transformed.png');
+  background-image: url('../images/open_cell-transformed.png');
 }
 .itemg:nth-of-type(3n) {
-  background-image: url('images/pcb-transformed.png');
+  background-image: url('../images/pcb-transformed.png');
 }
  
 .itemg:nth-of-type(4n) {
-  background-image: url('images/fnal_assembly-transformed.png');
+  background-image: url('../images/fnal_assembly-transformed.png');
 }
  
 .itemg:nth-of-type(5n) {
-  background-image: url('images/smt-transformed.png');
+  background-image: url('../images/smt-transformed.png');
 }
  
 .itemg:nth-of-type(6n) {
-  background-image: url('images/led-transformed.png');
+  background-image: url('../images/led-transformed.png');
 }
 .itemg:nth-of-type(6n) {
-  background-image: url('images/wave-transformed.png');
+  background-image: url('../images/wave-transformed.png');
 }
  
 .itemg:after {
@@ -5423,8 +5423,8 @@ justify-content: center;
  
 /* Section - Parallax */
 /**************************/
-#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(images/shutterstock_2270220535.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center; -webkit-overflow-scrolling: touch;}
-#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(images/shutterstock_2306510735.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; -webkit-overflow-scrolling: touch;}
+#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(../images/shutterstock_2270220535.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center; -webkit-overflow-scrolling: touch;}
+#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(../images/shutterstock_2306510735.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center; -webkit-overflow-scrolling: touch;}
 /* Extras */
 /**************************/
 #parallax-world-of-ugg .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
