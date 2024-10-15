@@ -389,3 +389,5 @@ function redirectOnBigScreens1(event) {
     event.stopPropagation();
   }
 }
+
+

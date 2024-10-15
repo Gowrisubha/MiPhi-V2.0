@@ -73,12 +73,47 @@ body {
 
 }
 
-
-
+/* Ensure body takes up the full viewport */
 body {
+  margin: 0;
+  padding: 0;
+   /* Prevent scroll until content loads */
   letter-spacing: 0.03rem;
   overflow-x: hidden;
 }
+
+/* Loader overlay covering entire body */
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Spinner animation */
+.spinner {
+  width: 70px;
+  height: 70px;
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #FF971D; /* Green-yellow theme */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Keyframes for spinning animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
 
 h1,
 .h1,
