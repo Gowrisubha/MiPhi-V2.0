@@ -5114,8 +5114,8 @@ dd {
 /* Start Style Portfolio */
 .port {
   padding: 80px 0;
-  background-color: #1b1a1a;
-  color: #fff;
+  
+  color: #000000;
 }
 .port .row{
 justify-content: center;
